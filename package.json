@@ -1,22 +1,14 @@
 {
-  "name": "router-component",
-  "repo": "component/router",
-  "description": "Simple client-side router",
+  "name": "component-router",
+  "description": "Simple and flexible client-side router",
   "version": "0.0.1",
-  "keywords": [],
-  "dependencies": {
-    "route-component": "0.2.0"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "better-assert": "*"
-  },
-  "license": "MIT",
-  "scripts": [
-    "index.js"
+  "keywords": [
+    "router",
+    "route",
+    "routing"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/router.git"
-  }
+  "dependencies": {
+    "component-route": "git://github.com/npmcomponent/component-route.git"
+  },
+  "license": "MIT"
 }

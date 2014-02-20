@@ -4,9 +4,9 @@
  */
 
 try {
-  var Route = require('route-component');
+  // commented out by npm-component: var Route = require('route-component');
 } catch (err) {
-  var Route = require('route');
+  var Route = require('component-route');
 }
 
 /**
